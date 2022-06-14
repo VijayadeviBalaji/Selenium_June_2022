@@ -1,0 +1,16 @@
+  public class LearnFactorial {
+
+	public static void main(String[] args) {
+		// if factorial for 5 - 5*4*3*2*1
+		
+	
+		int a=6; int fact=1;
+		
+		for(int i=1;i<=a;i++)
+		{
+			fact=fact*i;
+		}
+		System.out.println(fact);		
+		}
+
+	}
